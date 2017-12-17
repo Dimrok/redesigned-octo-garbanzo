@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ee-pipeline",
+        "command": "ee-pipeline:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ee-pipeline",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ee-pipeline:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
